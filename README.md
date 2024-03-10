@@ -2,7 +2,10 @@
 
 ## Ifacemaker
 
-> DOWNLOAD: `brew install ifacemaker`
+> Download: `brew install ifacemaker`
+
+#### Usage
+- Creates interface for some impelentation. now when you add some method, just run go generate ./... and your interface is up to date
 
 #### Steps
 1. Create implementation for your interface
@@ -12,3 +15,32 @@
 
 - [Example](./ifmaker)
 
+## stringer
+
+> Download: `go install golang.org/x/tools/cmd/stringer@latest`
+
+#### Usage
+- Stringer makes your type suitable for fmt.Stringer interface
+
+#### Steps
+1. create enum for type
+2. generate String method for type
+
+- command: `stringer -type=<typename> <filename>`
+
+- [Example](./stringer/)
+
+## mockgen
+
+> Download: `go install go.uber.org/mock/mockgen@latest`
+
+#### Usage
+- mockgen allows you to isolate unit of code you are testing by replacing dependencies with contolled substitutes
+
+#### Steps
+1. create enum for type
+2. generate String method for type
+
+- command: `stringer -type=<typename> <filename>`
+
+- [Example](./mockgen/)
