@@ -10,5 +10,5 @@
 
 - command: `ifacemaker -f <file> -o <name_new_file> -i <inteface_name> -s <struct_name> -p <package_name>`
 
-- [Example](./ifmaker/human.go)
+- [Example](./ifmaker)
 
