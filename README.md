@@ -2,7 +2,7 @@
 
 ## Ifacemaker
 
-> Download: `brew install ifacemaker`
+> Download: `brew install ifacemaker` or `go install github.com/vburenin/ifacemaker@latest`
 
 #### Usage
 - Creates interface for some impelentation. now when you add some method, just run go generate ./... and your interface is up to date
