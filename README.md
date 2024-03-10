@@ -38,9 +38,9 @@
 - mockgen allows you to isolate unit of code you are testing by replacing dependencies with contolled substitutes
 
 #### Steps
-1. create enum for type
-2. generate String method for type
+1. Select interface for mocking
+2. Mock the interface
 
-- command: `stringer -type=<typename> <filename>`
+- command: `mockgen -source=<filename> -destination=<filename> -package=<pkgname>`
 
 - [Example](./mockgen/)
